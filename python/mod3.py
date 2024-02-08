@@ -103,12 +103,200 @@
 #                         continue
 # print (new_word)
 
-blocks = int(input("Enter the number of blocks: "))
-height = 0
-layer = 1
-while layer <= blocks:
-    height += 1
-    blocks -= layer
-    layer += 1
+# blocks = int(input("Enter the number of blocks: "))
+# height = 0
+# layer = 1
+# while layer <= blocks:
+#     height += 1
+#     blocks -= layer
+#     layer += 1
     
-print("The height of the pyramid:", height)
+# print("The height of the pyramid:", height)
+
+# c0 =  int(input("Enter a non-zero non-negative value: \n"))
+# steps = 0
+
+# while c0 != 1:
+    
+    
+#     if (c0 % 2 == 0):
+#         c0 = c0 // 2
+#         print(str("\n"), c0)
+#     else:
+#         c0 = (3 * c0) + 1
+#         print(str("\n"), c0)
+
+#     steps+=1
+# else:
+#     print("\n Total steps :", str(steps))
+
+
+# for i in range (1,11,2):
+#     print(i)
+
+# x = 1
+# while x < 11:
+#     if( x % 2 != 0):
+#         print(x)
+#     x+=1
+
+# for ch in "abch@pythoninstitute.org":
+#     if ch == "@":
+#         break
+#     print(ch, sep="_", end="" )
+
+# for d in "0165031806510":
+#     x = "x"
+#     if d != "0":
+#         print(d, end="")
+#         continue
+    
+#     print(x, end="")
+    
+# n = 3
+# while n > 0:
+#     print(n + 1)
+#     n -= 1
+# else:
+#     print(n)
+
+# i = 15
+# x = 4
+# y = 1
+ 
+# a = x & y
+# b = x | y
+# c = ~x  # tricky!
+# d = x ^ 5
+# e = x >> 2
+# f = x << 2
+
+
+
+# print(a, b, c, d, e, f)
+
+# numbers = [10, 5, 7, 2, 1]
+# print("Original list contents:", numbers)  # Printing original list contents.
+
+# numbers[0] = 111
+# print("\nPrevious list contents:", numbers)  # Printing previous list contents.
+
+# numbers[1] = numbers[4]  # Copying value of the fifth element to the second.
+# print("Previous list contents:", numbers)  # Printing previous list contents.
+
+# print("\nList length:", len(numbers))
+
+# hat_list = [1, 2, 3, 4, 5]  # This is an existing list of numbers hidden in the hat.
+
+# number = int(input("Enter a number to insert: "))
+# hat_list[3] = number
+# # Step 1: write a line of code that prompts the user
+# # to replace the middle number with an integer number entered by the user.
+
+# del hat_list[4]
+# # Step 2: write a line of code that removes the last element from the list.
+
+# print(len(hat_list))# Step 3: write a line of code that prints the length of the existing list.
+
+# print(hat_list)
+
+# variable_1 = 1
+# variable_2 = 2
+# print (variable_1, variable_2) 
+# variable_1, variable_2 = variable_2, variable_1
+
+# print (variable_1, variable_2)
+
+# my_list = [10, 1, 8, 3, 5]
+# print(my_list)
+# my_list[0], my_list[4] = my_list[4], my_list[0]
+# my_list[1], my_list[3] = my_list[3], my_list[1]
+ 
+# print(my_list)
+
+# # step 1
+# beatles = []
+# print("Step 1:", beatles)
+
+# # step 2
+# beatles.append("John Lennon")
+# beatles.append("Paul McCartney")
+# beatles.append("George Harrison")
+# print("Step 2:", beatles)
+
+# # step 3
+# for i in range(2):
+#     name = input("Enter band member name: \n")
+#     beatles.append(name)
+# print("Step 3:", beatles)
+
+# # step 4
+# del beatles[-1]
+# del beatles[-1]
+# print("Step 4:", beatles)
+
+# # step 5
+# beatles.insert(0,"Ringo Starr")
+# print("Step 5:", beatles)
+
+
+# # testing list legth
+# print("The Fab", len(beatles))
+
+# list = []
+# swapped = True
+# num = int(input("Enter the number of elements to sort"))
+
+# for i in range(num):
+#     val = float(input("Enter the element: "))
+#     list.append(val)
+
+# print("The original list: ",list)
+
+# # while swapped:
+# #     swapped = False
+# #     for i in range(len(list)-1):
+# #         if list[i] > list[i+1]:
+# #             swapped = True
+# #             list[i], list[i+1] = list[i+1], list[i]
+
+# list.sort()
+
+# print("Sorted list", list)      
+
+# list.reverse()
+
+# print("Reversed list", list) 
+
+# my_list = [17, 3, 11, 5, 1, 9, 7, 15, 13]
+# largest = my_list[0]
+# for i in my_list[1:]:
+#     if i>largest:
+#         largest = i
+# print(largest)
+
+# my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# to_find = 5678
+# found = False
+
+# for i in range(len(my_list)):
+#     if  to_find == my_list[i]:
+#         found = True
+#         break
+
+# if found : print("Element found")
+# else: print("Element not found")
+
+# bets = [3, 7, 11, 42, 34, 49]
+# bets.sort()
+# drawn = [5, 11, 9, 42, 3, 49]
+# drawn.sort()
+
+# hits = 0
+
+# for i in bets:
+#     if i in drawn:
+#         hits += 1
+
+# print(hits)
+
