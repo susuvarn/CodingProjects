@@ -300,3 +300,41 @@
 
 # print(hits)
 
+# list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
+# print("Original List ", list)
+
+# new_list = []
+
+# for i in list:
+#     if i not in new_list:
+#         new_list.append(i)
+
+
+# print("The list with unique elements only:")
+
+# print(new_list)
+
+# board = [["X" for i in range(8)] for j in range(8)]
+# print(board)
+# board[0][0] = "ROOK"
+# board[0][7] = "ROOK"
+# board[7][0] = "ROOK"
+# board[7][7] = "ROOK"
+# board[4][2] = "KNIGHT"
+# board[3][4] = "PAWN"
+# print(board)
+
+
+# temps = [[0.0 for i in range(24)] for j in range(31)]
+
+# total = 0.0
+ 
+# for day in temps:
+#     total += day[11]
+ 
+# average = total / 31
+ 
+# print("Average temperature at noon:", average)
+my_list = [[0, 1, 2, 3] for i in range(3)]
+print(my_list[2][0])
+ 
